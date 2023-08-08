@@ -23,7 +23,7 @@ func main() {
 	}
 }
 
-func HomeHandler(w http.ResponseWriter, r *http.Request) {
+func HomeHandler(w http.ResponseWriter, _ *http.Request) {
 	file, _ := os.Open("./src/home/home.html")
 	defer file.Close()
 

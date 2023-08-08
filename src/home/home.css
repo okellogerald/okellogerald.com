@@ -1,12 +1,3 @@
-/* @font-face {
-    font-family: "Satoshi";
-    src: url("/src/assets/Satoshi-Medium.otf") format("opentype");
-}
- */
-* {
-    font-family: "IBM Plex Sans";
-}
-
 .parent {
     position: relative;
     display: flex;
