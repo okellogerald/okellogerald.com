@@ -17,11 +17,10 @@
 
     <script>
         const divElem = document.querySelector("body");
+        function updateBodyHeight() { divElem.style.height = `${window.innerHeight}px` }
 
         window.onload = updateBodyHeight
         window.addEventListener('resize', updateBodyHeight);
-
-        function updateBodyHeight() { divElem.style.height = `${window.innerHeight}px` }
     </script>
 </body>
 
