@@ -5,13 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/src/home/home.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM Plex Sans">
     <title>Okello Gerald</title>
 </head>
 
 <body class=parent>
-    <div class="child">
+    <p class="child">
         You've reached <span>okellogerald.com</span>. Please come back later, this site is in development.
-    </div>
+    </p>
+
+    <script>
+        const divElem = document.querySelector("body");
+
+        window.onload = updateBodyHeight
+        window.addEventListener('resize', updateBodyHeight);
+
+        function updateBodyHeight() { divElem.style.height = `${window.innerHeight}px` }
+    </script>
 </body>
 
 </html>

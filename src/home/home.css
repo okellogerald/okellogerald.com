@@ -1,10 +1,10 @@
-@font-face {
+/* @font-face {
     font-family: "Satoshi";
     src: url("/src/assets/Satoshi-Medium.otf") format("opentype");
 }
-
+ */
 * {
-    font-family: "Satoshi";
+    font-family: "IBM Plex Sans";
 }
 
 .parent {
@@ -17,8 +17,6 @@
 .child {
     position: absolute;
     text-align: center;
-    width: 100%;
-    height: 100%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
